@@ -22,7 +22,7 @@
 				<tr>
 					<td><?php echo $nameCategoria["categoria"]; ?></td>
 					<td><a href="mod_categoria.php?id=<?php echo $nameCategoria["_id"]; ?>" class="btn btn-warning" onclick="return false;"><i class="icon-pencil icon-white"></i> Modificar</a></td>
-					<td><a href="eliminar_categoria.php?id=<?php echo $nameCategoria["_id"]; ?>" class="btn btn-danger" onclick="return true;"><i class="icon-remove icon-white"></i> Eliminar</a></td>
+					<td><a href="eliminar_categoria.php?id=<?php echo $nameCategoria["_id"]; ?>" class="btn btn-danger" onclick="return false;"><i class="icon-remove icon-white"></i> Eliminar</a></td>
 				</tr>	
 				<?php
 						}

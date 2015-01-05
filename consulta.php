@@ -33,7 +33,7 @@
 					<td><a href="<?php echo $favorito['url'] ?>" target="_blank">Mostrar</a></td>
 					<td><a href="mod_favorito.php?id=<?php echo $favorito['_id'] ?>" 
 					  onclick="return false;" class="btn btn-warning"><i class="glyphicon glyphicon-plus-sign"></i> Modificar</a></td>
-					<td><a href="eliminar_favorito.php?id=<?php echo $favorito['_id'] ?>" onclick="return true;"
+					<td><a href="eliminar_favorito.php?id=<?php echo $favorito['_id'] ?>" onclick="return false;"
 					 class="btn btn-danger"><i class="glyphicon glyphicon-remove-circle">
 					 	
 					 </i> Eliminar</a></td>
