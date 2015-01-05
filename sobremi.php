@@ -26,11 +26,23 @@
     <a href="ingedwinesneyder.wordpress.com">Blog</a>  ---
    <a href="http://ingedwinesneyder.hol.es">Pagina</a> ---
    <a href="https://www.youtube.com/channel/UCCghAQHliodXURGl8d67UCw/videos">Canal Youtube</a>
+   <div id="fb-root"></div>
+   <div class="fb-like" data-href="http://mblogmongo.herokuapp.com/" data-width="20px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=747238572031215&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   </div>
 </div><hr>
 <a class="twitter-timeline" href="https://twitter.com/EdwinEsneyder" data-widget-id="519499761938735104">Tweets por el @EdwinEsneyder.</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </div>
+
+<!--facebooo-->
+
 </div>
 </div>
 </body>
