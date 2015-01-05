@@ -6,6 +6,8 @@
     <?php 
     	require_once("head.php");
     ?>
+
+  
   </head>
   <body>
   	<div class="navbar navbar-default">
@@ -33,6 +35,9 @@
 		    	</div>
 		  	</div>
 		</form>
+		
+
+
 		<div class="fb-like" data-href="http://mblogmongo.herokuapp.com/" data-width="20px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 

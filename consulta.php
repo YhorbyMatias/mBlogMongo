@@ -49,6 +49,28 @@
 			</tbody>
 		</table>
 
+		<div>
+         <script language="javascript">
+		$(document).ready(function() {
+			$(".botonExcel").click(function(event) {
+				$("#datos_a_enviar").val( $("<div>").append( $("#registro").eq(0).clone()).html());
+				$("#FormularioExportacion").submit();
+		});
+		});
+		</script>
+		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+
+          <form action="datosmblogmongo.php" method="post" target="_blank" id="FormularioExportacion">
+			<p><strong>Exportar a Excel</strong>  <img src="img/export_to_excel.gif" class="botonExcel" /></p>
+			<input type="hidden" id="datos_a_enviar" name="datos_a_enviar" class="btn btn-large btn-primary"/>
+			</form>
+			</script>
+			<style type="text/css">
+			.botonExcel{cursor:pointer;}
+			</style>
+		</div>	
+
+
 	</div>
  
 

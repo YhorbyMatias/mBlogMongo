@@ -17,7 +17,9 @@
 	<div class="container">
 	<br><br><br><br>	
 		<h2><span>Bienvenido a mBlogMongo</span></h2>	
-		<h5>Si desea registrar algún curso, lo puedes hacer. Este sitio web corre sobre una base de datos <a href="http://www.mongodb.org/">MongoDB</a></h5>	 
+		<h5>Si desea registrar algún curso, lo puedes hacer. Este sitio web corre sobre 
+			una base de datos <a href="http://www.mongodb.org/">MongoDB</a>. Si desea puede exportarlos a Excel. Al final la opción </h5>	
+
 		<?php
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
@@ -46,10 +48,12 @@
   js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=747238572031215&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+ 
 
-
+		<!--exportar a excel-->
 
 		
+		<!--end-->
 		<div id="contenido"></div>
 		 
 	</div> <!-- /container -->
@@ -63,8 +67,7 @@
        </footer>
    
 	 
-	 
- 
+
 
   </body>
 </html>

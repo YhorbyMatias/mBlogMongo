@@ -18,3 +18,6 @@ function mostrarcategoria(){
 $(document).ready(function(){
 	mostrarcategoria();
 });
+
+ 
+	
