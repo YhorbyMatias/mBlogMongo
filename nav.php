@@ -31,6 +31,9 @@ endif;
                     <li>
                         <a href="categorias.php">Categorías</a>
                     </li>
+                     <li>
+                        <a href="sobremi.php">Sobre mí</a>
+                    </li>
                     
                      <li>
                         <a href="#"><?php echo ("Bienvenido ".$_SESSION["login"]);?></a>
@@ -39,9 +42,7 @@ endif;
                     <li>
                       <a href="logout.php" ><span class="glyphicon glyphicon-off"></span>Logout</a>
                     </li>
-                    <li>
-                        <a href="sobremi.php">Sobre mí</a>
-                    </li>
+                   
                 </ul>
             </div>
              
