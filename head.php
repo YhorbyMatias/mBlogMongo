@@ -13,8 +13,13 @@
 <link rel="stylesheet" href="css/logo.css" wi>
 <link rel="stylesheet" href="css/style.css">
 
+
 <style>
   body { padding-top: 0px; }
   .tr-head{background: #dff0d8;}
 </style>  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/config_datatable_api.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="js/mostrar_lista.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>

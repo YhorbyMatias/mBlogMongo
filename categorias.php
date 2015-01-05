@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es-CO">
   <head>
+  		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css">
     <?php 
     	require_once("head.php");
     ?>
@@ -33,7 +35,7 @@
 		</form>
 		
  
-		<h3>Lista de categorías almacenados</h3>
+		<strong><h3>Lista de categorías almacenados</h3></strong>
 		<?php
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
@@ -50,39 +52,8 @@
 				echo "<p class='btn  btn-warning'><i class='icon-refresh icon-white'></i> Texto dañino, ingrese un valor valído para categotería </p><br><br>";
 			}
 		?>
-		<table class="table table-striped table-bordered">
-			<thead>
-			    <tr class="tr-head">
-			    	<th>Nombre caterogía</th>
-			    	<th>Modificar</th>
-			    	<th>Eliminar</th>
-			    </tr>
-			</thead>
-			<tbody>
-				<?php
-					require_once("connect_categoria.php");
+ 	<div id="contenidoc"></div>
 
-					if ($c_categoria->count()>0) {
-						$row = $c_categoria->find();
-						foreach ($row as $nameCategoria) {
-				?>
-				<tr>
-					<td><?php echo $nameCategoria["categoria"]; ?></td>
-					<td><a href="mod_categoria.php?id=<?php echo $nameCategoria["_id"]; ?>" class="btn btn-warning" onclick="return false;"><i class="icon-pencil icon-white"></i> Modificar</a></td>
-					<td><a href="eliminar_categoria.php?id=<?php echo $nameCategoria["_id"]; ?>" class="btn btn-danger" onclick="return false;"><i class="icon-remove icon-white"></i> Eliminar</a></td>
-				</tr>	
-				<?php
-						}
-					}else{
-				?>
-				<tr>
-					<td colspan="3"><i class="icon-info-sign"></i> Sin registros en la Base de Datos</h4></td>
-				</tr>
-				<?php } ?>
-			</tbody>
-		</table>
-
-		
 	</div> <!-- /container -->
 	<footer class="row ">
     <div class="panel-footer text-center">

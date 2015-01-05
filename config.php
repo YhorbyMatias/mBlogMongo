@@ -22,5 +22,5 @@ include_once("functions.php");
  $_SESSION["loggedIn"] ;
 
 ?>
-<?//var_dump($_SESSION);var_dump($_POST);?>
+<?//var_dump($_SESSION);var_dump($_POST);3393333?>
  
