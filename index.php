@@ -34,7 +34,7 @@
             }
              
             ?>
-                <img class="profile-img" src="img/esneyder.jpg" width="5"  alt="">
+                <img class="profile-img" src="img/esneyder.jpg" width="4"  alt="">
                 <form class="form-signin" action="validarlogin.php" method="post">
                 <input name="login" value="<?= isset($_POST["login"]) ? $_POST["login"] : "" ; ?>" type="text" class="form-control" placeholder="Usuario"  required autofocus>
                 <input name="password"  id="password" type="password" class="form-control" placeholder="Password" required>
