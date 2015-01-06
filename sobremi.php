@@ -23,9 +23,14 @@
    Estudiante de Ingeniería en Software, amante de la seguridad informática y desarrollador.<br>
    Mis pasión por el desarrollo de Software hace que este constantemente investigando asuntos 
    relacionados que me fortalezcan cada día en las diferentes áreas de esta hermosa profesión.<br>
-    <a href="https://ingedwinesneyder.wordpress.com" target="_blank">Blog</a> <strong> <=></strong>
+    <a href="http://ingedwinesneyder.wordpress.com" target="_blank">Blog</a> <strong> <=></strong>
    <a href="http://ingedwinesneyder.hol.es" target="_blank">Pagina</a>  <strong> <=></strong>
    <a href="https://www.youtube.com/channel/UCCghAQHliodXURGl8d67UCw/videos">Canal Youtube</a>
+     <?php include_once("reporteuser.php");
+      $user=$usuarios->count();
+      ?>
+      <p><strong>Gracias, ya somos:<?php  echo $user;?> usuarios</strong></p>
+
    <div id="fb-root"></div>
    <div class="fb-like" data-href="http://mblogmongo.herokuapp.com/" data-width="20px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 <script>(function(d, s, id) {

@@ -7,10 +7,17 @@
 	<?php require_once("head.php");?>
 </head>
 <body>
+	<?php include_once("reporteuser.php");
+      $user=$usuarios->count();
+      ?>
 <br><br><br>
 <div class="container">
 <div class="panel panel-primary">
-  <div class="panel-heading">Confirmación, registro usuario</div>
+  <div class="panel-heading">Confirmación, registro usuario.
+  
+     Gracias, ya somos: <strong><?php  echo $user;?></strong> usuarios
+
+  </div>
   <div class="panel-body">
 	<?php
 

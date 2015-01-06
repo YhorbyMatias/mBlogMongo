@@ -1,5 +1,10 @@
 <?
  
+ function totalusuarios(){
+ 	global $coll;
+ 	$coll->count();
+ 	
+ }
 
 function newUser($login, $password)
 {
