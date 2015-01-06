@@ -24,10 +24,10 @@
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
 			if ($mensaje == 1) {
-				echo "<p class='btn  btn-success'><i class='icon-trash icon-white'></i> El usuario fue guardado éxito.</p><br><br>";
+				echo "<p class='alert alert-success' role='alert><i class='icon-trash icon-white'></i> El usuario fue guardado éxito.</p><br><br>";
 			} 
 			if ($mensaje == 2) {
-				echo "<p class='btn  btn-danger'><i class='icon-trash icon-white'></i> El usuario no pudo ser guardado.</p><br><br>";
+				echo "<p class='alert alert-danger' role='alert><i class='icon-trash icon-white'></i> El usuario no pudo ser guardado.</p><br><br>";
 			} 
 
 	 ?>

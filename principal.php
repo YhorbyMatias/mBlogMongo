@@ -24,13 +24,13 @@
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
 			if ($mensaje == 1) {
-				echo "<p class='btn  btn-danger'><i class='icon-trash icon-white'></i> El favorito fue guardado éxito.</p><br><br>";
+				echo "<p class='alert alert-success' role='alert'><i class='icon-trash icon-white'></i> El favorito fue guardado éxito.</p><br><br>";
 			}
 			if ($mensaje == 2) {
-				echo "<p class='btn  btn-success'><i class='icon-ok icon-white'></i> El favorito fue guardado con éxito.</p><br><br>";
+				echo "<p class='alert alert-info' role='alert><i class='icon-ok icon-white'></i> El favorito fue guardado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 3) {
-				echo "<p class='btn  btn-warning'><i class='icon-refresh icon-white'></i> El favorito fue modificado con éxito.</p><br><br>";
+				echo "<p class='alert alert-warning' role='alert><i class='icon-refresh icon-white'></i> El favorito fue modificado con éxito.</p><br><br>";
 			}
 		?>
 		 

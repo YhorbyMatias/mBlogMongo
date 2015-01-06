@@ -30,7 +30,7 @@
             error_reporting(0);
             $mensaje = $_GET["mensaje"];
             if ($mensaje == 1) {
-                echo "<p class='btn  btn-danger'><i class='icon-trash icon-white'></i> Datos de acceso incorrectos</p><br><br>";
+                echo "<p class='alert alert-danger' role='alert'><i class='icon-trash icon-white'></i> Datos de acceso incorrectos</p><br><br>";
             }
              
             ?>
