@@ -35,7 +35,9 @@
 		?>
 		 
 		 
-		<h3>Mis favoritos <a href="favoritos.php" href="principal.php" class="btn btn-success glyphicon glyphicon-saved">Nuevo</a></h3>
+		<h3>Mis favoritos <a href="favoritos.php" class="btn btn-success glyphicon glyphicon-saved">Nuevo</a>
+          <a href="reportefavoritos.php" class="btn btn-primary glyphicon glyphicon-th">Detalles</a>
+		</h3>
 		
 <div class="fb-like" data-href="http://mblogmongo.herokuapp.com/" data-width="20px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
