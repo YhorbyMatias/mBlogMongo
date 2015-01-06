@@ -29,7 +29,7 @@
      <?php include_once("reporteuser.php");
       $user=$usuarios->count();
       ?>
-      <p><strong>Gracias, ya somos:<?php  echo $user;?> usuarios</strong></p>
+      <p>Gracias, ya somos:<strong class="badge"><?php  echo $user;?></strong> usuarios</p>
 
    <div id="fb-root"></div>
    <div class="fb-like" data-href="http://mblogmongo.herokuapp.com/" data-width="20px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>

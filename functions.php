@@ -1,11 +1,21 @@
 <?
  
- function totalusuarios(){
- 	global $coll;
- 	$coll->count();
- 	
- }
-
+function registros(){
+    
+    global $regs;
+    //$busqueda = array('usuario.nombre' => 'hunterfox');
+    $busqueda = array();
+ 
+    $regs->find($busqueda,array("usuario.login","usuario.password"));
+    $array = iterator_to_array($regs);
+ 
+    foreach($array as $r => $elem){
+        $tabla .= '
+'.$r.''.$elem['usuario']['login'].''.$elem['usuario']['password'].'
+';
+    }
+    return $tabla;
+}
 function newUser($login, $password)
 {
 	global $coll;
