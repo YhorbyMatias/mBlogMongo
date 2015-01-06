@@ -38,7 +38,7 @@ $reg=$c_favoritos->find();
 	 <hr>
 <div class="row">
 	 <?php  foreach ($reg as $obj) {  ?>
-<div class="col-xs-4 .col-sm-8 .col-lg-10">
+<div class="col-lg-4">
   <div class="panel panel-success">
   <div class="panel-heading"><? echo  $obj['titulo'] . "<br/>"; ?></div>
   <div class="panel-body">
