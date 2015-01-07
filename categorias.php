@@ -55,16 +55,16 @@
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
 			if ($mensaje == 1) {
-				echo "<p class='btn  btn-danger'><i class='icon-trash icon-white'></i> La categoría fue eliminado con éxito.</p><br><br>";
+				echo "<p class='alert alert-success' role='alert><i class='icon-trash icon-white'></i> La categoría fue eliminado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 2) {
-				echo "<p class='btn  btn-success'><i class='icon-ok icon-white'></i> La categoria fue guardado con éxito.</p><br><br>";
+				echo "<p class='alert alert-primary' role='alert><i class='icon-ok icon-white'></i> La categoria fue guardado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 3) {
-				echo "<p class='btn  btn-warning'><i class='icon-refresh icon-white'></i> La categoría fue modificado con éxito.</p><br><br>";
+				echo "<p class='alert alert-warning' role='alert><i class='icon-refresh icon-white'></i> La categoría fue modificado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 4) {
-				echo "<p class='btn  btn-warning'><i class='icon-refresh icon-white'></i> Texto dañino, ingrese un valor valído para categotería </p><br><br>";
+				echo "<p class='alert alert-danger' role='alert><i class='icon-refresh icon-white'></i> Texto dañino, ingrese un valor valído para categotería </p><br><br>";
 			}
 		?>
  	<div id="contenidoc"></div>
