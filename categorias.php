@@ -55,7 +55,7 @@
 			error_reporting(0);
 			$mensaje = $_GET["mensaje"];
 			if ($mensaje == 1) {
-				echo "<p class='alert alert-success' role='alert><i class='icon-trash icon-white'></i> La categoría fue eliminado con éxito.</p><br><br>";
+				echo "<p class='alert alert-primary' role='alert><i class='icon-trash icon-white'></i> La categoría fue eliminado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 2) {
 				echo "<p class='alert alert-primary' role='alert><i class='icon-ok icon-white'></i> La categoria fue guardado con éxito.</p><br><br>";
