@@ -58,7 +58,7 @@
 				echo "<p class='alert alert-danger' role='alert><i class='icon-trash icon-white'></i> La categoría fue eliminado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 2) {
-				echo "<p class='alert alert-primary' role='alert><i class='icon-ok icon-white'></i> La categoria fue guardado con éxito.</p><br><br>";
+				echo "<p class='alert alert-success' role='alert><i class='icon-ok icon-white'></i> La categoria fue guardado con éxito.</p><br><br>";
 			}
 			if ($mensaje == 3) {
 				echo "<p class='alert alert-warning' role='alert><i class='icon-refresh icon-white'></i> La categoría fue modificado con éxito.</p><br><br>";
