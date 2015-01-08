@@ -75,3 +75,14 @@
  
 
  
+ <html>
+ <head>
+ 	<title></title>
+ </head>
+ <body>
+ 	<article></article>
+ 	<section></section>
+ 	<footer></footer>
+ 
+ </body>
+ </html>
