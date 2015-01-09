@@ -1,6 +1,6 @@
 <?php 
 
-	$mongo = new MongoClient('mongodb://admin:alvarez@ds052827.mongolab.com:52827/miblog');
+	$mongo = new MongoClient();
 	$db = $mongo->selectDB("miblog");
 	$c_categoria = $mongo->selectCollection("miblog","categoria");
 

@@ -4,7 +4,7 @@
 error_reporting(E_ALL);
 try
 {
-  $m    = new MongoClient('mongodb://admin:alvarez@ds052827.mongolab.com:52827/miblog');
+  $m    = new MongoClient();
   $db   = $m->miblog;
   $coll = $db->usuario;
 }
